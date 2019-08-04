@@ -1,0 +1,22 @@
+{
+    "bookSourceGroup": "",
+    "bookSourceName": "玄界小说网(落寞尘世)",
+    "bookSourceType": "",
+    "bookSourceUrl": "http://www.xuanjiexiaoshuo.com",
+    "enable": true,
+    "ruleBookContent": "id.content@textNodes",
+    "ruleChapterList": "id.chapterlist@tag.li",
+    "ruleChapterName": "tag.a@text",
+    "ruleContentUrl": "tag.a@href",
+    "ruleCoverUrl": "tag.img@src",
+    "ruleIntroduce": "tag.p.0@text",
+    "ruleSearchAuthor": "tag.td.2@text",
+    "ruleSearchKind": "tag.td.4@text",
+    "ruleSearchLastChapter": "tag.td.1@text",
+    "ruleSearchList": "id.nr",
+    "ruleSearchName": "tag.a.0@text",
+    "ruleSearchNoteUrl": "tag.a.0@href",
+    "ruleSearchUrl": "/modules/article/search.php@searchkey=searchKey&searchtype=articlename|char=gbk",
+    "serialNumber": 0,
+    "weight": 0
+  }
