@@ -1,0 +1,23 @@
+{
+    "bookSourceGroup": "",
+    "bookSourceName": "读一下",
+    "bookSourceType": "",
+    "bookSourceUrl": "https://www.duxia.org",
+    "enable": true,
+    "ruleBookContent": "@js:org.jsoup.Jsoup.parse(result).select(\".art_con dd\").toArray().sort((a,b)=>a.attr(\"data-id\")-b.attr(\"data-id\")).map(x=>x.html()).join(\"\\n\")",
+    "ruleChapterList": "+@js:org.jsoup.Jsoup.parse(result).select(\"#newlist a\").toArray().sort().map(x=>({text:x.text(),href:x.attr(\"href\")}))",
+    "ruleChapterName": "text",
+    "ruleChapterUrl": "class.button@tag.a@href",
+    "ruleContentUrl": "href",
+    "ruleSearchAuthor": "tag.span.0@text",
+    "ruleSearchCoverUrl": "tag.img@data-original",
+    "ruleSearchIntroduce": "class.c@text#内容介绍：",
+    "ruleSearchKind": "class.tips@tag.a@text&&tag.span.1@text&&tag.span.2@text",
+    "ruleSearchLastChapter": "class.bottom@tag.a@text",
+    "ruleSearchList": "class.leftBox@tag.li",
+    "ruleSearchName": "tag.h1@tag.a.0@text",
+    "ruleSearchNoteUrl": "tag.a.0@href",
+    "ruleSearchUrl": "https://www.duxia.org/search.html@key=searchKey|char=gbk",
+    "serialNumber": 0,
+    "weight": 0
+  }
