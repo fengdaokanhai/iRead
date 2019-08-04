@@ -1,7 +1,7 @@
-[
+
   {
     "bookSourceGroup": "",
-    "bookSourceName": "ÊéÒ¶Ğ¡ËµÍø[Ò¶×Ó]",
+    "bookSourceName": "ä¹¦å¶å°è¯´ç½‘[å¶å­]",
     "bookSourceUrl": "http://m.shuyexs.com",
     "enable": true,
     "httpUserAgent": "",
@@ -14,8 +14,8 @@
     "ruleBookUrlPattern": "",
     "ruleChapterList": "class.ptm-list-view-cell",
     "ruleChapterName": "tag.a@text",
-    "ruleChapterUrl": "class.ptm-col-xs-6@text.²é¿´Ä¿Â¼.0@href",
-    "ruleChapterUrlNext": "class.ptm-col-xs-3@text.ÏÂÒ»Ò³.0@href",
+    "ruleChapterUrl": "class.ptm-col-xs-6@text.æŸ¥çœ‹ç›®å½•.0@href",
+    "ruleChapterUrlNext": "class.ptm-col-xs-3@text.ä¸‹ä¸€é¡µ.0@href",
     "ruleContentUrl": "tag.a@href",
     "ruleContentUrlNext": "",
     "ruleCoverUrl": "class.baseinfo@tag.img@src",
@@ -23,7 +23,7 @@
     "ruleIntroduce": "class.intro@text",
     "ruleSearchAuthor": "tag.a.1@text|tag.a.2@text",
     "ruleSearchCoverUrl": "",
-    "ruleSearchKind": "class.pt-info.1@text#·ÖÀà:",
+    "ruleSearchKind": "class.pt-info.1@text#åˆ†ç±»:",
     "ruleSearchLastChapter": "",
     "ruleSearchList": "class.pt-novel|tag.li",
     "ruleSearchName": "tag.h1.0@text|tag.a.1@text",
@@ -31,4 +31,4 @@
     "ruleSearchUrl": "http://m.shuyexs.com/search.html?searchkey=searchKey",
     "serialNumber": 0,
     "weight": 0
-  }]
+  }
